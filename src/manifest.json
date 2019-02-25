@@ -3,7 +3,6 @@
   "name": "card-demo",
   "versionName": "1.0.0",
   "versionCode": "1",
-  "minPlatformVersion": "1031",
   "icon": "/Common/logo.png",
   "config": {                                               
     "logLevel": "debug",
@@ -21,14 +20,15 @@
             "name": "system.router"
           }
         ],
-        "targetManufactorys": [
-          "vivo"
-        ],
         "params": {
           "title": "noTitle",
           "height": "23.7%",
           "enableFold": "false"
-        }
+        },
+        "minPlatformVersion": "1031",
+        "targetManufactorys": [
+          "vivo"
+        ]
       }
     }
   },
